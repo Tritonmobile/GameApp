@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gamebg"
+    android:weightSum="2"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main1"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/setting"
+        android:textSize="20dp"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/old_password"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:hint="@string/OldPassword"
+            android:background="@drawable/login_text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NewPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/new_password"
+            android:background="@drawable/login_text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:id="@+id/conform_new_password"
+            android:layout_marginTop="3dp"
+            android:hint="@string/ConfirmPassWord"
+            android:background="@drawable/login_text"/>
+
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/seting_submit"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/login_submit"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="5"
+
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/resetmail"
+            android:textSize="20dp"
+
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/current_mail"
+            android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+            android:background="@drawable/login_text"
+            android:hint="@string/Currentmail"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_mail"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_text"
+            android:hint="@string/NewMail"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/confirmnew_mail"
+            android:gravity="center"
+            android:background="@drawable/login_text"
+            android:hint="@string/ConfirnewMai"/>
+
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+           android:layout_gravity="center_horizontal"
+            android:id="@+id/mail_submit"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/login_submit"/>
+
+    </LinearLayout>
+</LinearLayout>

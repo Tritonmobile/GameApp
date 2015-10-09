@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Duke</string>
+    <string name="resetmail">RESET MAIL</string>
+    <string name="setting">PASSWORD-RESET</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="ConfirmPassWord">Confirm Password</string>
+    <string name="Currentmail">Current Mail</string>
+    <string name="NewMail">New Email</string>
+    <string name="Leaderboard">LEADER BOARD</string>
+    <string name="lessionlist">LESSION LIST</string>
+    <string name="pastscore">PAST SCORE</string>
+    <string name="ConfirnewMai">Confirm New Mail</string>
+    <string name="Userid">User Id</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Count">Count</string>
+    <string name="Goal">Score</string>
+    <string name="Time">Time</string>
+    <string name="Goal_process">Goal progress by Word</string>
+    <string name="Goal_p">Goal progress</string>
+    <string name="Gl">Goal:</string>
+    <string name="filp">Flips:</string>
+    <string name="score">Score:</string>
+    <string name="time">Time:</string>
+    <string name="result">Result</string>
+</resources>
