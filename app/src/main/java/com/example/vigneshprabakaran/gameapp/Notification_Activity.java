@@ -32,6 +32,12 @@ import java.util.ArrayList;
  * Created by vigneshprabakaran on 10-09-2015.
  */
 public class Notification_Activity extends Activity {
+
+
+
+
+
+
     LinearLayout linearLayout;
     TextView textView;
     public  void init() {
